@@ -1,0 +1,1 @@
+docker build -t aslom/tinygo-wasm-wagi:latest .
