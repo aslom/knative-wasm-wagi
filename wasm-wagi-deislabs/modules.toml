@@ -1,0 +1,6 @@
+default_host = "localhost:8000"
+
+[[module]]
+# Example executing a Web Assembly Text file
+route = "/"
+module = "main.wasm"
