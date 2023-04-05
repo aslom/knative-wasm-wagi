@@ -30,10 +30,16 @@ Publish image to registry
 ./docker_push.sh
 ```
 
+Direclty deploy using YAML
 
-kubectl apply -f func.yaml
+```
+kubectl apply -f hello-wasm-yaml.yaml
+```
 
-# TODO use kn ?
+Use kn CLI:
 
+```
+kn service create hello-wasm-kn --image docker.io/aslom/tinygo-wasm-wagi:latest --port 8080
+```
 
 # TODO replace registry in used image eith sed// ?
