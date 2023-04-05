@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println("Content-Type: text/plain")
 	fmt.Println("")
-	fmt.Println("Hello After Pi Day in Wasm World!")
+	fmt.Println("Hello in Wasm World!")
 
 	printenv()
 }
