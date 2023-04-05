@@ -30,7 +30,7 @@ Publish image to registry
 ./docker_push.sh
 ```
 
-Direclty deploy using YAML
+Directly deploy using YAML:
 
 ```
 kubectl apply -f hello-wasm-yaml.yaml
